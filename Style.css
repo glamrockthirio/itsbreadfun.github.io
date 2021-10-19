@@ -79,3 +79,16 @@ nav {
 .contact:hover {
     color: #4955db;
 }
+.submit {
+    font-size: 120%;
+    padding: 1% 5%; background-color:
+    black; color: white; border:
+    none;
+}
+.submit:hover {
+    background-color: white;
+    color: black;
+}
+.form:hover {
+    background-color: wheat;
+}
