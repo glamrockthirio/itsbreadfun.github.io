@@ -56,10 +56,13 @@
                         <label>Feedback: <input type="text" name="email" class="form"/></label>
                     </p>
                     <p><br>
-                        <label>Website rating: <input type="range" min="0" max="10"/></label>
+                        <label>Website rating: <input type="range" min="0" max="10" name="webratinginput" oninput="webratingoutput.value = webratinginput.value" id="webratingid"/></label>
+                        <output name="webratingoutput" id="webratingid">5</output>/10
                     </p>
                     <p><br>
-                        <label>Bot rating: <input type="range" min="0" max="10"/></label>
+                        <label>Bot rating: <input type="range" min="0" max="10" name="botratinginput" oninput="botratingoutput.value = botratinginput.value" id="botrating"/></label>
+                        <output name="botratingoutput" id="botratingid">5</output>/10
+                    <p style="font-size: 75%;"><br>Me, Bread™#6723, appreciate all of your feedback. 😍</p>
                     </p>
                     <p><br>
                         <button type="submit" class="submit">Send</button>
